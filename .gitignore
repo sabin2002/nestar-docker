@@ -1,0 +1,23 @@
+# Dependencies
+**/node_modules/
+
+# Build outputs
+**/.next/
+**/dist/
+**/coverage/
+
+# Environment variables and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local uploaded files
+**/uploads/
+
+# Logs
+*.log
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+
