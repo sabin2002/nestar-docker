@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" font-family="DejaVu Sans, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0 0L10 5L0 10z" fill="#555"/></marker><marker id="sm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#4b5563"/></marker><linearGradient id="blue" x1="0" x2="1"><stop offset="0" stop-color="#7fb2e5"/><stop offset="1" stop-color="#4a86c5"/></linearGradient><linearGradient id="green" x1="0" x2="1"><stop offset="0" stop-color="#a6dc8a"/><stop offset="1" stop-color="#6cbf52"/></linearGradient><linearGradient id="gray" x1="0" x2="1"><stop offset="0" stop-color="#f1f1f1"/><stop offset="1" stop-color="#c9c9c9"/></linearGradient><linearGradient id="db" x1="0" x2="1"><stop offset="0" stop-color="#5b9be0"/><stop offset="1" stop-color="#2c63b0"/></linearGradient><linearGradient id="orange" x1="0" x2="1"><stop offset="0" stop-color="#ffc27a"/><stop offset="1" stop-color="#f08a24"/></linearGradient></defs>
+<rect width="1600" height="920" fill="#fff"/>
+<text x="40" y="78" font-size="46" font-weight="bold" fill="#0b7fab">Designing and Developing Nestar</text>
+<g stroke="#3b4a8f" stroke-width="2.5" fill="none"><circle cx="70" cy="168" r="7" fill="#6c7fd8"/><path d="M70 175V198M58 184H82M70 198L60 214M70 198L80 214"/></g>
+<ellipse cx="200" cy="150" rx="48" ry="20" fill="#6c7fd8" opacity="0.9"/>
+<path d="M82 185 L152 150" stroke="#555" stroke-width="2"/>
+<ellipse cx="200" cy="205" rx="48" ry="20" fill="#6c7fd8" opacity="0.9"/>
+<path d="M82 185 L152 205" stroke="#555" stroke-width="2"/>
+<ellipse cx="200" cy="260" rx="48" ry="20" fill="#6c7fd8" opacity="0.9"/>
+<path d="M82 185 L152 260" stroke="#555" stroke-width="2"/>
+<g stroke="#3b4a8f" stroke-width="2.5" fill="none"><circle cx="325" cy="218" r="7" fill="#6c7fd8"/><path d="M325 225V248M313 234H337M325 248L315 264M325 248L335 264"/></g>
+<path d="M248 205 L313 232M248 260 L313 246" stroke="#555" stroke-width="2"/>
+<text x="200" y="318" text-anchor="middle" font-size="16" fill="#6b7280">Use case diagrams</text>
+<rect x="430" y="130" width="80" height="26" fill="#c9cfdc" stroke="#555" stroke-width="1.5"/>
+<text x="470" y="148" text-anchor="middle" font-size="12" text-decoration="underline" fill="#111">:Frontend</text>
+<path d="M470 156V290" stroke="#333" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="525" y="130" width="80" height="26" fill="#c9cfdc" stroke="#555" stroke-width="1.5"/>
+<text x="565" y="148" text-anchor="middle" font-size="12" text-decoration="underline" fill="#111">:Gateway</text>
+<path d="M565 156V290" stroke="#333" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="620" y="130" width="80" height="26" fill="#c9cfdc" stroke="#555" stroke-width="1.5"/>
+<text x="660" y="148" text-anchor="middle" font-size="12" text-decoration="underline" fill="#111">:Service</text>
+<path d="M660 156V290" stroke="#333" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="715" y="130" width="80" height="26" fill="#c9cfdc" stroke="#555" stroke-width="1.5"/>
+<text x="755" y="148" text-anchor="middle" font-size="12" text-decoration="underline" fill="#111">:DB</text>
+<path d="M755 156V290" stroke="#333" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="464" y="170" width="12" height="110" fill="#c9cfdc" stroke="#555" stroke-width="1.5"/>
+<rect x="559" y="195" width="12" height="75" fill="#c9cfdc" stroke="#555" stroke-width="1.5"/>
+<rect x="654" y="215" width="12" height="40" fill="#c9cfdc" stroke="#555" stroke-width="1.5"/>
+<rect x="749" y="235" width="12" height="15" fill="#c9cfdc" stroke="#555" stroke-width="1.5"/>
+<path d="M476 200H557" stroke="#333" stroke-width="1.8" marker-end="url(#sm)"/>
+<text x="518" y="195" text-anchor="middle" font-size="12" fill="#111">query()</text>
+<path d="M571 220H652" stroke="#333" stroke-width="1.8" marker-end="url(#sm)"/>
+<text x="613" y="215" text-anchor="middle" font-size="12" fill="#111">send()</text>
+<path d="M666 240H747" stroke="#333" stroke-width="1.8" marker-end="url(#sm)"/>
+<text x="708" y="235" text-anchor="middle" font-size="12" fill="#111">save()</text>
+<text x="612" y="318" text-anchor="middle" font-size="16" fill="#6b7280">Sequence diagrams</text>
+<rect x="950" y="130" width="160" height="40" rx="6" fill="#a6dc8a" stroke="#4d8f3a" stroke-width="2"/>
+<text x="1030" y="156" text-anchor="middle" font-size="15" font-weight="bold" fill="#1f3d14">API Gateway</text>
+<path d="M1030 170 V200 H898 V230" fill="none" stroke="#555" stroke-width="1.8" marker-end="url(#sm)"/>
+<rect x="858" y="232" width="80" height="36" rx="6" fill="#a6dc8a" stroke="#4d8f3a" stroke-width="2"/>
+<text x="898" y="255" text-anchor="middle" font-size="13" fill="#1f2937">Member</text>
+<path d="M1030 170 V200 H986 V230" fill="none" stroke="#555" stroke-width="1.8" marker-end="url(#sm)"/>
+<rect x="946" y="232" width="80" height="36" rx="6" fill="#a6dc8a" stroke="#4d8f3a" stroke-width="2"/>
+<text x="986" y="255" text-anchor="middle" font-size="13" fill="#1f2937">Property</text>
+<path d="M1030 170 V200 H1074 V230" fill="none" stroke="#555" stroke-width="1.8" marker-end="url(#sm)"/>
+<rect x="1034" y="232" width="80" height="36" rx="6" fill="#a6dc8a" stroke="#4d8f3a" stroke-width="2"/>
+<text x="1074" y="255" text-anchor="middle" font-size="13" fill="#1f2937">Social</text>
+<path d="M1030 170 V200 H1162 V230" fill="none" stroke="#555" stroke-width="1.8" marker-end="url(#sm)"/>
+<rect x="1122" y="232" width="80" height="36" rx="6" fill="#ffd9a8" stroke="#d9822b" stroke-width="2"/>
+<text x="1162" y="255" text-anchor="middle" font-size="13" fill="#1f2937">AI</text>
+<text x="1030" y="318" text-anchor="middle" font-size="16" fill="#6b7280">Microservice design</text>
+<path d="M1247.0 175 V250 A43.0 12.285714285714286 0 0 0 1333.0 250 V175" fill="url(#db)" stroke="#1f4f8f" stroke-width="2"/>
+<ellipse cx="1290" cy="175" rx="43.0" ry="12.285714285714286" fill="#9cc4f0" stroke="#1f4f8f" stroke-width="2"/>
+<text x="1290" y="285" text-anchor="middle" font-size="13" fill="#1f2937">member</text>
+<path d="M1357.0 175 V250 A43.0 12.285714285714286 0 0 0 1443.0 250 V175" fill="url(#db)" stroke="#1f4f8f" stroke-width="2"/>
+<ellipse cx="1400" cy="175" rx="43.0" ry="12.285714285714286" fill="#9cc4f0" stroke="#1f4f8f" stroke-width="2"/>
+<text x="1400" y="285" text-anchor="middle" font-size="13" fill="#1f2937">property</text>
+<path d="M1467.0 175 V250 A43.0 12.285714285714286 0 0 0 1553.0 250 V175" fill="url(#db)" stroke="#1f4f8f" stroke-width="2"/>
+<ellipse cx="1510" cy="175" rx="43.0" ry="12.285714285714286" fill="#9cc4f0" stroke="#1f4f8f" stroke-width="2"/>
+<text x="1510" y="285" text-anchor="middle" font-size="13" fill="#1f2937">social</text>
+<text x="1400" y="318" text-anchor="middle" font-size="16" fill="#6b7280">Database per service</text>
+<rect x="25" y="450" width="230" height="140" fill="#c8ccd3" stroke="#a3a8b0" stroke-width="2"/>
+<rect x="25" y="450" width="230" height="24" fill="#e5e7eb"/>
+<circle cx="40" cy="462" r="4.5" fill="#9ca3af"/>
+<circle cx="54" cy="462" r="4.5" fill="#9ca3af"/>
+<circle cx="68" cy="462" r="4.5" fill="#9ca3af"/>
+<rect x="90" y="456" width="130" height="12" rx="6" fill="#fff"/>
+<text x="40" y="495" font-size="11" fill="#4b5563">nestar.com</text>
+<circle cx="140" cy="532" r="26" fill="#6b7280"/><circle cx="140" cy="532" r="11" fill="#c8ccd3"/>
+<text x="140" y="650" text-anchor="middle" font-size="27" font-weight="bold" fill="#5b5b5b">User Interface</text>
+<path d="M370.0 449.0 L388.0 435.0 H490.0 V591.0 L472.0 605.0 H370.0 Z" fill="url(#blue)" stroke="#2b5d93" stroke-width="2.5"/>
+<path d="M472.0 449.0 H370.0M472.0 449.0 V605.0M472.0 449.0 L490.0 435.0" fill="none" stroke="#2b5d93" stroke-width="2"/>
+<rect x="384.0" y="469.0" width="62" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="384.0" y="483.0" width="62" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="384.0" y="497.0" width="62" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="384.0" y="511.0" width="62" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="384.0" y="571.0" width="62" height="10" rx="2" fill="#ffffff" opacity="0.35"/>
+<circle cx="490" cy="545" r="45" fill="#3f7fc4" stroke="#1d4f86" stroke-width="2.5"/>
+<ellipse cx="490" cy="545" rx="20" ry="45" fill="none" stroke="#bfe0ff" stroke-width="2"/>
+<path d="M445 545H535M453 523H527M453 567H527" stroke="#bfe0ff" stroke-width="2"/>
+<text x="450" y="650" text-anchor="middle" font-size="27" font-weight="bold" fill="#5b5b5b">Web Application</text>
+<path d="M700.0 449.0 L718.0 435.0 H820.0 V591.0 L802.0 605.0 H700.0 Z" fill="url(#blue)" stroke="#2b5d93" stroke-width="2.5"/>
+<path d="M802.0 449.0 H700.0M802.0 449.0 V605.0M802.0 449.0 L820.0 435.0" fill="none" stroke="#2b5d93" stroke-width="2"/>
+<rect x="714.0" y="469.0" width="62" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="714.0" y="483.0" width="62" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="714.0" y="497.0" width="62" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="714.0" y="511.0" width="62" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="714.0" y="571.0" width="62" height="10" rx="2" fill="#ffffff" opacity="0.35"/>
+<path d="M790 525 l38 14 v26 c0 26 -20 40 -38 48 c-18 -8 -38 -22 -38 -48 v-26 z" fill="#1d4f86" stroke="#fff" stroke-width="3"/>
+<path d="M776 560 l10 10 l20 -22" fill="none" stroke="#fff" stroke-width="4"/>
+<text x="760" y="650" text-anchor="middle" font-size="27" font-weight="bold" fill="#5b5b5b">API Gateway</text>
+<path d="M982.0 476.0 L1000.0 462.0 H1078.0 V584.0 L1060.0 598.0 H982.0 Z" fill="url(#green)" stroke="#3f7f2c" stroke-width="2.5"/>
+<path d="M1060.0 476.0 H982.0M1060.0 476.0 V598.0M1060.0 476.0 L1078.0 462.0" fill="none" stroke="#3f7f2c" stroke-width="2"/>
+<rect x="996.0" y="496.0" width="38.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="996.0" y="510.0" width="38.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="996.0" y="524.0" width="38.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="996.0" y="538.0" width="38.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="996.0" y="564.0" width="38.0" height="10" rx="2" fill="#ffffff" opacity="0.35"/>
+<path d="M1102.0 476.0 L1120.0 462.0 H1198.0 V584.0 L1180.0 598.0 H1102.0 Z" fill="url(#green)" stroke="#3f7f2c" stroke-width="2.5"/>
+<path d="M1180.0 476.0 H1102.0M1180.0 476.0 V598.0M1180.0 476.0 L1198.0 462.0" fill="none" stroke="#3f7f2c" stroke-width="2"/>
+<rect x="1116.0" y="496.0" width="38.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1116.0" y="510.0" width="38.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1116.0" y="524.0" width="38.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1116.0" y="538.0" width="38.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1116.0" y="564.0" width="38.0" height="10" rx="2" fill="#ffffff" opacity="0.35"/>
+<path d="M1030.0 449.0 L1048.0 435.0 H1150.0 V591.0 L1132.0 605.0 H1030.0 Z" fill="url(#green)" stroke="#3f7f2c" stroke-width="2.5"/>
+<path d="M1132.0 449.0 H1030.0M1132.0 449.0 V605.0M1132.0 449.0 L1150.0 435.0" fill="none" stroke="#3f7f2c" stroke-width="2"/>
+<rect x="1044.0" y="469.0" width="62.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1044.0" y="483.0" width="62.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1044.0" y="497.0" width="62.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1044.0" y="511.0" width="62.0" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1044.0" y="571.0" width="62.0" height="10" rx="2" fill="#ffffff" opacity="0.35"/>
+<text x="1090" y="650" text-anchor="middle" font-size="27" font-weight="bold" fill="#5b5b5b">Business Services</text>
+<path d="M1352.5 439.0 L1370.5 425.0 H1447.5 V531.0 L1429.5 545.0 H1352.5 Z" fill="url(#gray)" stroke="#777" stroke-width="2.5"/>
+<path d="M1429.5 439.0 H1352.5M1429.5 439.0 V545.0M1429.5 439.0 L1447.5 425.0" fill="none" stroke="#777" stroke-width="2"/>
+<rect x="1366.5" y="459.0" width="37" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1366.5" y="473.0" width="37" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1366.5" y="487.0" width="37" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1366.5" y="501.0" width="37" height="7" rx="2" fill="#ffffff" opacity="0.45"/>
+<rect x="1366.5" y="511.0" width="37" height="10" rx="2" fill="#ffffff" opacity="0.35"/>
+<path d="M1410.0 460 V530 A45.0 12.857142857142858 0 0 0 1500.0 530 V460" fill="url(#db)" stroke="#1f4f8f" stroke-width="2"/>
+<ellipse cx="1455" cy="460" rx="45.0" ry="12.857142857142858" fill="#9cc4f0" stroke="#1f4f8f" stroke-width="2"/>
+<path d="M1410 485 A45 13 0 0 0 1500 485" fill="none" stroke="#bcd7f5" stroke-width="2"/>
+<path d="M1410 508 A45 13 0 0 0 1500 508" fill="none" stroke="#bcd7f5" stroke-width="2"/>
+<text x="1430" y="568" text-anchor="middle" font-size="22" font-weight="bold" fill="#5b5b5b">Database</text>
+<rect x="1375" y="591" width="110" height="68" rx="10" fill="url(#orange)" stroke="#b35f0f" stroke-width="2.5"/>
+<path d="M1386 591v-9M1386 659v9" stroke="#b35f0f" stroke-width="3"/>
+<path d="M1408 591v-9M1408 659v9" stroke="#b35f0f" stroke-width="3"/>
+<path d="M1430 591v-9M1430 659v9" stroke="#b35f0f" stroke-width="3"/>
+<path d="M1452 591v-9M1452 659v9" stroke="#b35f0f" stroke-width="3"/>
+<path d="M1474 591v-9M1474 659v9" stroke="#b35f0f" stroke-width="3"/>
+<text x="1430" y="634" text-anchor="middle" font-size="26" font-weight="bold" fill="#fff">AI</text>
+<text x="1430" y="697" text-anchor="middle" font-size="22" font-weight="bold" fill="#5b5b5b">AI Model</text>
+<path d="M260 520 H360" stroke="#555" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M545 520 H690" stroke="#555" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M830 520 H975" stroke="#555" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M1205 510 L1345 480" stroke="#555" stroke-width="2.5" marker-end="url(#ar)"/>
+<path d="M1205 540 L1365 620" stroke="#555" stroke-width="2.5" marker-end="url(#ar)"/>
+<text x="295" y="500" text-anchor="middle" font-size="14" fill="#6b7280">HTTPS</text>
+<text x="612" y="500" text-anchor="middle" font-size="14" fill="#6b7280">GraphQL / WebSocket</text>
+<text x="902" y="500" text-anchor="middle" font-size="14" fill="#6b7280">TCP messages</text>
+<rect x="88.0" y="720" width="104" height="40" rx="20" fill="#fff" stroke="#e34c26" stroke-width="2.5"/>
+<text x="140" y="747" text-anchor="middle" font-size="18" font-weight="bold" fill="#e34c26">HTML5</text>
+<rect x="53.0" y="772" width="174" height="40" rx="20" fill="#fff" stroke="#264de4" stroke-width="2.5"/>
+<text x="140" y="799" text-anchor="middle" font-size="18" font-weight="bold" fill="#264de4">CSS / SCSS</text>
+<rect x="53.0" y="824" width="174" height="40" rx="20" fill="#fff" stroke="#3178c6" stroke-width="2.5"/>
+<text x="140" y="851" text-anchor="middle" font-size="18" font-weight="bold" fill="#3178c6">TypeScript</text>
+<rect x="384.0" y="720" width="132" height="40" rx="20" fill="#fff" stroke="#111111" stroke-width="2.5"/>
+<text x="450" y="747" text-anchor="middle" font-size="18" font-weight="bold" fill="#111111">Next.js</text>
+<rect x="398.0" y="772" width="104" height="40" rx="20" fill="#fff" stroke="#0a7ea4" stroke-width="2.5"/>
+<text x="450" y="799" text-anchor="middle" font-size="18" font-weight="bold" fill="#0a7ea4">React</text>
+<rect x="356.0" y="824" width="188" height="40" rx="20" fill="#fff" stroke="#007fff" stroke-width="2.5"/>
+<text x="450" y="851" text-anchor="middle" font-size="18" font-weight="bold" fill="#007fff">Material UI</text>
+<rect x="701.0" y="720" width="118" height="40" rx="20" fill="#fff" stroke="#e0234e" stroke-width="2.5"/>
+<text x="760" y="747" text-anchor="middle" font-size="18" font-weight="bold" fill="#e0234e">NestJS</text>
+<rect x="694.0" y="772" width="132" height="40" rx="20" fill="#fff" stroke="#e10098" stroke-width="2.5"/>
+<text x="760" y="799" text-anchor="middle" font-size="18" font-weight="bold" fill="#e10098">GraphQL</text>
+<rect x="722.0" y="824" width="76" height="40" rx="20" fill="#fff" stroke="#7c3aed" stroke-width="2.5"/>
+<text x="760" y="851" text-anchor="middle" font-size="18" font-weight="bold" fill="#7c3aed">JWT</text>
+<rect x="933.0" y="720" width="314" height="40" rx="20" fill="#fff" stroke="#e0234e" stroke-width="2.5"/>
+<text x="1090" y="747" text-anchor="middle" font-size="18" font-weight="bold" fill="#e0234e">NestJS microservices</text>
+<rect x="1003.0" y="772" width="174" height="40" rx="20" fill="#fff" stroke="#3c873a" stroke-width="2.5"/>
+<text x="1090" y="799" text-anchor="middle" font-size="18" font-weight="bold" fill="#3c873a">Node.js 22</text>
+<rect x="1031.0" y="824" width="118" height="40" rx="20" fill="#fff" stroke="#1d63ed" stroke-width="2.5"/>
+<text x="1090" y="851" text-anchor="middle" font-size="18" font-weight="bold" fill="#1d63ed">Docker</text>
+<rect x="1364.0" y="720" width="132" height="40" rx="20" fill="#fff" stroke="#13aa52" stroke-width="2.5"/>
+<text x="1430" y="747" text-anchor="middle" font-size="18" font-weight="bold" fill="#13aa52">MongoDB</text>
+<rect x="1294.0" y="772" width="272" height="40" rx="20" fill="#fff" stroke="#c2410c" stroke-width="2.5"/>
+<text x="1430" y="799" text-anchor="middle" font-size="18" font-weight="bold" fill="#c2410c">Ollama · llama3.2</text>
+<rect x="1392.0" y="824" width="76" height="40" rx="20" fill="#fff" stroke="#ff9900" stroke-width="2.5"/>
+<text x="1430" y="851" text-anchor="middle" font-size="18" font-weight="bold" fill="#ff9900">AWS</text>
+</svg>

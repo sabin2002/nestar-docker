@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" font-family="DejaVu Sans, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#475569"/></marker></defs>
+<rect width="1200" height="740" fill="#ffffff"/>
+<text x="600" y="44" text-anchor="middle" font-size="26" font-weight="bold" fill="#0f172a">Nestar — System Architecture</text>
+<rect x="450.0" y="82.0" width="300" height="56" rx="12" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+<text x="600" y="106" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Users</text>
+<text x="600" y="128" text-anchor="middle" font-size="13" fill="#334155">web browser (PC or phone)</text>
+<rect x="430.0" y="187.0" width="340" height="56" rx="12" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+<text x="600" y="211" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Frontend</text>
+<text x="600" y="233" text-anchor="middle" font-size="13" fill="#334155">Next.js website</text>
+<rect x="340.0" y="293.0" width="520" height="64" rx="12" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+<text x="600" y="321" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">API Gateway</text>
+<text x="600" y="343" text-anchor="middle" font-size="13" fill="#334155">the only entry point: GraphQL, login check, chat</text>
+<path d="M600 138 V185" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M600 243 V291" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<text x="612" y="170" text-anchor="start" font-size="13" fill="#475569">opens the site</text>
+<text x="612" y="274" text-anchor="start" font-size="13" fill="#475569">GraphQL + WebSocket</text>
+<path d="M600 357 V398" fill="none" stroke="#475569" stroke-width="2"/>
+<path d="M315 398 H1075" fill="none" stroke="#475569" stroke-width="2"/>
+<path d="M315 398 V431" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M505 398 V431" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M695 398 V431" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M885 398 V431" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M1075 398 V431" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<text x="720" y="390" text-anchor="start" font-size="13" fill="#475569">messages over the network (TCP)</text>
+<rect x="40.0" y="433.0" width="170" height="64" rx="12" fill="#f8fafc" stroke="#94a3b8" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="125" y="461" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Batch</text>
+<text x="125" y="483" text-anchor="middle" font-size="13" fill="#334155">updates top lists</text>
+<rect x="230.0" y="433.0" width="170" height="64" rx="12" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="315" y="461" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Member</text>
+<text x="315" y="483" text-anchor="middle" font-size="13" fill="#334155">sign up, login, users</text>
+<rect x="420.0" y="433.0" width="170" height="64" rx="12" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="505" y="461" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Property</text>
+<text x="505" y="483" text-anchor="middle" font-size="13" fill="#334155">listings, search</text>
+<rect x="610.0" y="433.0" width="170" height="64" rx="12" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="695" y="461" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Community</text>
+<text x="695" y="483" text-anchor="middle" font-size="13" fill="#334155">articles, comments</text>
+<rect x="800.0" y="433.0" width="170" height="64" rx="12" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="885" y="461" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Social</text>
+<text x="885" y="483" text-anchor="middle" font-size="13" fill="#334155">likes, follows, views</text>
+<rect x="990.0" y="433.0" width="170" height="64" rx="12" fill="#fff4e5" stroke="#dd6b20" stroke-width="2"/>
+<text x="1075" y="461" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">AI Service</text>
+<text x="1075" y="483" text-anchor="middle" font-size="13" fill="#334155">chatbot</text>
+<path d="M210 465 H228" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)" stroke-dasharray="6 5"/>
+<path d="M315 497 V582" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M235.0 590.0 V660.0 A80.0 10 0 0 0 395.0 660.0 V590.0" fill="#e8f7ee" stroke="#2f855a" stroke-width="2"/>
+<ellipse cx="315" cy="590.0" rx="80.0" ry="10" fill="#d3f0de" stroke="#2f855a" stroke-width="2"/>
+<text x="315" y="631" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Member DB</text>
+<text x="315" y="651" text-anchor="middle" font-size="12" fill="#334155">nestar_member</text>
+<path d="M505 497 V582" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M425.0 590.0 V660.0 A80.0 10 0 0 0 585.0 660.0 V590.0" fill="#e8f7ee" stroke="#2f855a" stroke-width="2"/>
+<ellipse cx="505" cy="590.0" rx="80.0" ry="10" fill="#d3f0de" stroke="#2f855a" stroke-width="2"/>
+<text x="505" y="631" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Property DB</text>
+<text x="505" y="651" text-anchor="middle" font-size="12" fill="#334155">nestar_property</text>
+<path d="M695 497 V582" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M615.0 590.0 V660.0 A80.0 10 0 0 0 775.0 660.0 V590.0" fill="#e8f7ee" stroke="#2f855a" stroke-width="2"/>
+<ellipse cx="695" cy="590.0" rx="80.0" ry="10" fill="#d3f0de" stroke="#2f855a" stroke-width="2"/>
+<text x="695" y="631" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Community DB</text>
+<text x="695" y="651" text-anchor="middle" font-size="12" fill="#334155">nestar_community</text>
+<path d="M885 497 V582" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M805.0 590.0 V660.0 A80.0 10 0 0 0 965.0 660.0 V590.0" fill="#e8f7ee" stroke="#2f855a" stroke-width="2"/>
+<ellipse cx="885" cy="590.0" rx="80.0" ry="10" fill="#d3f0de" stroke="#2f855a" stroke-width="2"/>
+<text x="885" y="631" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Social DB</text>
+<text x="885" y="651" text-anchor="middle" font-size="12" fill="#334155">nestar_social</text>
+<path d="M1075 497 V590" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="990.0" y="593.0" width="170" height="64" rx="12" fill="#fff4e5" stroke="#dd6b20" stroke-width="2"/>
+<text x="1075" y="621" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">Ollama</text>
+<text x="1075" y="643" text-anchor="middle" font-size="13" fill="#334155">AI model (llama3.2)</text>
+<text x="600" y="700" text-anchor="middle" font-size="14" fill="#475569">Each service is a separate program with its own database (all on MongoDB). Only the API Gateway is reachable from the internet.</text>
+</svg>
